@@ -23,10 +23,10 @@
 <main>
   <p class="lang"><a href="../" hreflang="pt-BR">Português</a></p>
   <h1>Privacy policy</h1>
-  <p class="meta">Unknown Number / Número Desconhecido (game for Android and the web) · effective November 25, 2026</p>
+  <p class="meta">Unknown Number / Número Desconhecido (game for Android and the web) · effective November 27, 2026</p>
 
   <h2>Summary</h2>
-  <p>Unknown Number does not collect personal data and does not sell or share data with anyone. The game has no ads and no trackers. It sends <strong>anonymous gameplay statistics</strong> to help improve the story. They are on by default, and you can turn them off at any time in Settings. Your progress is saved only on your device.</p>
+  <p>Story 1 is free and can be played without an account. From Story 2 on, stories are paid: buying requires an account (e-mail or Google), and then we keep the account and purchase data described below. We do not sell data and the game has no ads and no trackers. It sends <strong>anonymous gameplay statistics</strong> to help improve the story. They are on by default, and you can turn them off at any time in Settings. Your progress is saved only on your device.</p>
 
   <h2>Anonymous gameplay statistics</h2>
   <ul>
@@ -51,7 +51,8 @@
 
   <h2>Permissions</h2>
   <ul>
-    <li><strong>Internet:</strong> used only to send the anonymous statistics described above. All story content, including the voice recordings, ships inside the game.</li>
+    <li><strong>Internet:</strong> used to send the anonymous statistics, sign in, buy and download purchased stories. Story 1, including its voice recordings, ships inside the game.</li>
+    <li><strong>Google Play billing:</strong> used only for buying stories in the app.</li>
     <li><strong>Notifications (optional):</strong> to let you know when a character writes while the game is closed. Notifications are created on the device itself, with no server. You can decline or turn them off at any time.</li>
     <li><strong>Run at startup, keep awake and alarms:</strong> used only by the local notification feature, so that a notification already scheduled still works after the device restarts and shows up on time. They do not read or send any data.</li>
     <li><strong>Vibration:</strong> for message alerts, which can be turned off in the game settings.</li>
@@ -60,8 +61,19 @@
   <h2>Voice messages</h2>
   <p>The characters’ voice messages are recordings that ship inside the game. When a line has no recording, it is read by your device’s text-to-speech feature, under that provider’s privacy policy. The game does not record or send your voice and does not use the microphone.</p>
 
-  <h2>Optional account (turned off in this version)</h2>
-  <p>The game has an optional account prepared for continuing the story on another device. It is not active in this version. If it is turned on in the future, this policy will be updated first, and the account will remain optional. In that case, only the email address or Google account identifier used to sign in and a copy of the game progress (including the nickname) would be stored on a database server, solely so you can continue where you left off. You will be able to request deletion of the account and that data.</p>
+  <h2>Account</h2>
+  <p>An account is optional to play Story 1 and required to buy the other stories (so the purchase works on the website and in the app). To sign in we use your e-mail address (with a code sent by e-mail) or your Google account. We store the e-mail, an account identifier and, if you use sync, a copy of your game progress (including your nickname). This data is kept in Supabase, a database service used as an infrastructure provider.</p>
+
+  <h2>Purchases</h2>
+  <ul>
+    <li><strong>What we keep for each purchase:</strong> the account that bought it, the story, the amount, the payment method (Pix, card or Google Play), the status (pending, approved, declined, expired, refunded), the dates and the order number at Mercado Pago or Google Play. This is used to unlock the story on your account, show your purchase history, handle refund requests and meet tax obligations.</li>
+    <li><strong>On the website, payment is processed by Mercado Pago</strong> on behalf of Meu Bairro Buritis, the seller. Card details are typed into Mercado Pago's own form and never pass through our servers; with Pix, you pay in your bank app. Mercado Pago receives the data needed for the payment (such as e-mail, CPF when requested and card details) and handles it under its own privacy policy.</li>
+    <li><strong>In the Android app, payment is made through Google Play</strong>, under Google's privacy policy. From Google we only receive the purchase confirmation (product, status and order number) and a code that links the purchase to your game account without revealing your e-mail to Google.</li>
+    <li><strong>Purchased content:</strong> is downloaded to your device after the purchase, so you can play offline. If the purchase is refunded, charged back or disputed, the story is no longer unlocked and the copy on the device is deleted at the next connection.</li>
+    <li><strong>How long:</strong> purchase records are kept for 5 years for tax and accounting obligations, even if the account is deleted earlier (in that case without the e-mail).</li>
+    <li><strong>Who we share it with:</strong> only the necessary processors: Mercado Pago (website payments), Google (app payments and Google sign-in), Supabase (account and purchases), Resend (sending the sign-in code and purchase confirmation e-mails) and Cloudflare (website servers and content delivery). We only send those two kinds of e-mail: no marketing. None of them receives the data for its own advertising.</li>
+  </ul>
+  <p>To request deletion of your account or a copy of your data, use the developer contact e-mail shown on the game's Google Play page. You have the rights provided by Brazil's General Data Protection Law (LGPD).</p>
 
   <h2>Web version and website</h2>
   <p>If you play in a web browser, your progress is saved in the browser itself and the anonymous statistics work as described above. The website and the game are delivered by Cloudflare, which may log technical access data (such as IP address and browser type) for security, under its own policy. Visits to the website pages are counted by Cloudflare Web Analytics, which does not use cookies. The game does not use tracking cookies. The IP address is never stored with the game statistics.</p>
